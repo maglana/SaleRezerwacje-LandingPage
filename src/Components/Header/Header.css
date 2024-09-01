@@ -1,0 +1,27 @@
+.site-header {
+	background-color: #f8f8f8;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Logo {
+	max-width: 250px;
+	height: auto;
+}
+@media (max-width: 768px) {
+	.site-header {
+		justify-content: left;
+	}
+
+	.logo {
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 480px) {
+	.logo {
+		max-width: 100px;
+	}
+}
