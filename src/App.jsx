@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import ServicesSection from "./Components/ServicesSection/ServicesSection";
 import FeaturesSection from "./Components/FeaturesSection/FeaturesSection";
+import SupportSection from "./Components/SupportSection/SupportSection";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<HeroSection />
 			<ServicesSection />
 			<FeaturesSection />
+			<SupportSection />
 		</div>
 	);
 }
