@@ -7,6 +7,7 @@ import FeaturesSection from "./Components/FeaturesSection/FeaturesSection";
 import SupportSection from "./Components/SupportSection/SupportSection";
 import TestimonialsSection from "./Components/TestimonialsSection/TestimonialsSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
+import CookieConsent from "./Components/CookieConsent/CookieConsent";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<SupportSection />
 			<TestimonialsSection />
 			<ContactSection />
+			<CookieConsent />
 		</div>
 	);
 }
