@@ -3,31 +3,31 @@ import "./FeaturesSection.css";
 
 function FeaturesSection() {
 	return (
-		<section class='features-section'>
-			<h2 class='features-heading'>
+		<section className='features-section'>
+			<h2 className='features-heading'>
 				Kompleksowa obsługa konferencji od A do Z
 			</h2>
-			<div class='underline'></div>
-			<div class='features-grid'>
-				<div class='feature-item'>
-					<h3 class='feature-title'>Usługi gastronomiczne</h3>
+			<div className='underline'></div>
+			<div className='features-grid'>
+				<div className='feature-item'>
+					<h3 className='feature-title'>Usługi gastronomiczne</h3>
 					<hr />
-					<p class='feature-description'>
+					<p className='feature-description'>
 						Catering lub organizacja przerwy kawowej.
 					</p>
 				</div>
-				<div class='feature-item'>
-					<h3 class='feature-title'>Wyposażenie specjalistyczne</h3>
+				<div className='feature-item'>
+					<h3 className='feature-title'>Wyposażenie specjalistyczne</h3>
 					<hr />
-					<p class='feature-description'>
+					<p className='feature-description'>
 						Umożliwiamy dostęp również do sprzętu takiego jak pracownie
 						komputerowe, kosmetyczne czy stomatologiczne.
 					</p>
 				</div>
-				<div class='feature-item'>
-					<h3 class='feature-title'>Rozrywki</h3>
+				<div className='feature-item'>
+					<h3 className='feature-title'>Rozrywki</h3>
 					<hr />
-					<p class='feature-description'>
+					<p className='feature-description'>
 						Organizujemy również nietypowe atrakcje i umożliwiamy dostęp do sal
 						sportowych, miejsc prób artystycznych, ścianek spinaczkowych,
 						przestrzeni przygotowanych pod warsztaty kulinarne.

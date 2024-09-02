@@ -75,6 +75,18 @@
 .support-button:hover {
 	background-color: #1d1d1b;
 }
+
+.support-step {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.support-step.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (max-width: 768px) {
 	.support-steps {
 		grid-template-columns: repeat(2, 1fr);
